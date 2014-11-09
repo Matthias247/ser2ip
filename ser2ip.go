@@ -52,7 +52,6 @@ func main() {
 
 	ser2ipBuf := make([]byte, 1024)
 	ip2serBuf := make([]byte, 1024)
-	_ = ip2serBuf
 
 	serPortReadChan := make(chan readResult)
 	serPortReadMore := make(chan bool)
